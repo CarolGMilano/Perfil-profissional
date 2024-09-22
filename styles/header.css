@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1.5rem;
+    height: 15vh;
+}
+
+.header__p {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--salmao);
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: auto;
+    }
+}

@@ -1,0 +1,211 @@
+.main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__card1 {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.main__card1--preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1__preview--title {
+    text-transform: uppercase;
+
+    background-image: linear-gradient(var(--salmao), var(--salmao));
+    background-position: bottom 10px right;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.main__card1--professional{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+
+.card1__preview--contact{
+    display: flex;
+    align-items: center;
+
+}
+
+.preview__contact--number {
+    display: flex;
+    align-items: center;
+}
+
+.contact__number--title {
+    text-transform: uppercase;
+    padding-right: .5rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact__number--num {
+    font-size: 12px;
+    font-weight: 100;
+    color: var(--creme);
+    transition: color .3s;
+}
+
+.contact__number--num:hover {
+    color: var(--salmao);
+}
+
+.preview__contact--site {
+    text-transform: uppercase;
+    color: var(--creme);
+    padding-left: 1.5rem;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.preview__contact--site:hover {
+    color: var(--salmao);
+}
+
+.main__card2 {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: auto auto;
+    gap: 2rem 6rem;
+}
+
+.main__card2--profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.card2__profile--title, 
+.card2__education--title,
+.card2__languages--title,
+.card2__animals--title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.card2__profile--text {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.profile__text--detail {
+    transition: color .3s;
+}
+
+.card2__profile--text:hover .profile__text--detail {
+    color: var(--salmao);
+}
+
+.main__card2--education {
+    display: flex;
+    flex-direction: column;
+}
+
+.card2__education--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.education__container--detail {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.education__container--detail:hover .detail__div--class {
+    color: var(--salmao);
+}
+
+.education__container--detail:nth-last-child(1) {
+    padding-bottom: 0;
+}
+
+.container__detail--year {
+    padding-right: 1rem;
+}
+
+.container__detail--year,
+.detail__div--class {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.detail__div--class {
+    transition: .3s;
+}
+
+.detail__div--uni {
+    font-size: 15px;
+    padding-top: .5rem;
+    font-weight: 100;
+}
+
+.main__card2--languages, 
+.card2__languages--container,
+.main__card2--animals,
+.card2__animals--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.languages__container--detail,
+.animals__container--detail {
+    display: flex;
+    padding-top: .5rem;
+}
+
+.languages__container--detail:hover .detail__grade--circle,
+.animals__container--detail:hover .detail__grade--circle {
+    background-color: var(--salmao);
+}
+
+.container__detail--title {
+    padding-right: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.container__detail--grade {
+    display: flex;
+    align-items: center;
+}
+
+.detail__grade--circle {
+    margin-right: .8rem;
+    width: 10px;
+    height: 10px;
+    background-color: var(--creme);
+    border-radius: 100px;
+    transition: .3s; 
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        height: auto;
+    }
+
+    .main__card2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem 0;
+        padding: 0 3rem;
+    }
+}

@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 15vh;
+}
+
+.footer__p {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--salmao);
+    height: 35px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+       height: auto;
+       margin-top: 2rem;
+    }
+}

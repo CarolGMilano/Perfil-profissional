@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+:root {
+    --creme: #F4F2DE;
+    --preto: #000000;
+    --salmao: hsla(7, 99%, 70%, 0.411);
+
+    --fonte_primaria: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--fonte_primaria);
+    background-color: var(--preto);
+    color: var(--creme); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
