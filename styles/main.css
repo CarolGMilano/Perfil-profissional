@@ -21,7 +21,7 @@
 .card1__preview--title {
     text-transform: uppercase;
 
-    background-image: linear-gradient(var(--salmao), var(--salmao));
+    background-image: linear-gradient(var(--destaque), var(--destaque));
     background-position: bottom 10px right;
     background-size: 100% 20%;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
 }
 
 .contact__number--num:hover {
-    color: var(--salmao);
+    color: var(--destaque);
 }
 
 .preview__contact--site {
@@ -74,7 +74,7 @@
 }
 
 .preview__contact--site:hover {
-    color: var(--salmao);
+    color: var(--destaque);
 }
 
 .main__card2 {
@@ -110,7 +110,7 @@
 }
 
 .card2__profile--text:hover .profile__text--detail {
-    color: var(--salmao);
+    color: var(--destaque);
 }
 
 .main__card2--education {
@@ -129,7 +129,7 @@
 }
 
 .education__container--detail:hover .detail__div--class {
-    color: var(--salmao);
+    color: var(--destaque);
 }
 
 .education__container--detail:nth-last-child(1) {
@@ -173,7 +173,7 @@
 
 .languages__container--detail:hover .detail__grade--circle,
 .animals__container--detail:hover .detail__grade--circle {
-    background-color: var(--salmao);
+    background-color: var(--destaque);
 }
 
 .container__detail--title {
