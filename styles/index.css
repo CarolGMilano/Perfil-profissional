@@ -4,8 +4,8 @@
 
 :root {
     --creme: #F4F2DE;
-    --preto: #000000;
-    --salmao: hsla(7, 99%, 70%, 0.411);
+    --fundo: #000000e8;
+    --destaque: hsl(210.38deg 99% 70% / 41.1%);
 
     --fonte_primaria: "Montserrat", sans-serif;
 }
@@ -13,7 +13,7 @@
 body {
     height: 100vh;
     font-family: var(--fonte_primaria);
-    background-color: var(--preto);
+    background-color: var(--fundo);
     color: var(--creme); 
     display: flex;
     flex-direction: column;
